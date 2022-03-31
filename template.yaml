@@ -24,7 +24,7 @@ spec:
       volumes:
       - name: shared-data
         hostPath:
-          path: /tem
+          path: /remote
           type: Directory
 
 ---
